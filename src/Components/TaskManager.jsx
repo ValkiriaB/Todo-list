@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Box, Button, Icon, SimpleGrid, Center } from "@chakra-ui/react";
 import { ArrowForwardIcon } from "@chakra-ui/icons";
 import AddTask from "./AddTask";
-import filterTasks from "./filterTasks";
+import filterTasks from "./FilterTasks";
 import TaskList from "./FunctionTask";
 import DuplicateAlert from "./DuplicateAlert";
 
