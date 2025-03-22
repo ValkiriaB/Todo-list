@@ -1,14 +1,14 @@
 import React  from 'react';
 import Header from './Components/Header';
 import {Box} from "@chakra-ui/react";
-import  FunctionTodo from "./Components/FunctionTodo";
+import  TaskManager from "./Components/TaskManager";
 
 
 function App() {
   return (
     <Box>
         <Header/>
-        <FunctionTodo/>
+        <TaskManager/>
  </Box> 
  );
 }
